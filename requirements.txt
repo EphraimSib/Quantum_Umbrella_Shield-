@@ -1,0 +1,11 @@
+=== SYSTEM REQUIREMENTS (Debian/Ubuntu) ===
+nmap==7.94          # Network mapping and security auditing
+nikto==2.5.0         # Web server vulnerability scanner
+dirb==2.22           # Web content brute-forcer
+metasploit==6.3.27   # Penetration testing framework
+snort==2.9.20        # Real-time network intrusion detection
+suricata==6.0.13     # High-performance IDS/IPS
+ntopng==5.2          # Network traffic monitoring
+openssl==3.0.9       # Quantum cryptographic operations
+python3==3.11        # Core runtime
+libssl-dev==3.0.9    # SSL development libraries
