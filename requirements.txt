@@ -1,5 +1,4 @@
-=== SYSTEM REQUIREMENTS (Debian/Ubuntu) ===
-nmap==7.94          # Network mapping and security auditing
+nmap==7.94           # Network mapping and security auditing
 nikto==2.5.0         # Web server vulnerability scanner
 dirb==2.22           # Web content brute-forcer
 metasploit==6.3.27   # Penetration testing framework
