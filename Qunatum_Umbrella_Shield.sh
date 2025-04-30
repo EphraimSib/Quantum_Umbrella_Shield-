@@ -12,7 +12,7 @@ THREAT_LOG="$LOG_DIR/quantum_threats.log"
 CONFIG_FILE="$QUANTUM_DIR/quantum_config"
 DANGER_EMOJI="🚨"
 SHIELD_EMOJI="🛡️"
-QUANTUM_KEYS=("replace with your quantum keys" "QUANTUM_BACKUP_1" "QUANTUM_BACKUP_2")
+QUANTUM_KEYS=("your_quantum_keys" "QUANTUM_BACKUP_1" "QUANTUM_BACKUP_2")
 CURRENT_QKEY=0
 SCAN_RANGES=("192.168.0.0/24" "10.0.0.0/24")
 
