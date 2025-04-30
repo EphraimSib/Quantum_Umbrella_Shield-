@@ -81,7 +81,8 @@ install_dependency() {
         
         if [ $? -ne 0 ]; then
             echo -e "\033[31mFailed to install $dep\033[0m"
-            exit 1
+            echo -e "\033[33mWarning: Continuing despite failure to install $dep\033[0m"
+            # Do not exit, continue script
         fi
     else
         echo -e "\033[32m$dep already installed\033[0m"
