@@ -37,6 +37,7 @@ def generate_quantum_key():
     private_key = kyber.keygen(entropy)
     public_key = lattice_based_encrypt(private_key)
     return (public_key, quantum_hash(private_key))
+    
 2. Entanglement Scanner
 Performs photonic network mapping
 
@@ -190,3 +191,9 @@ bash
 ./QuantumShield.sh chrono-sync \
     --ntp-server time.quantumshield.io \
     --quantum-lock
+
+ 
+Warning: This tool requires proper legal authorization for operation.
+License: Quantum Security License (QSL-4.0)
+Contact: security@quantumshield.io
+Documentation: Quantum Shield Docs
